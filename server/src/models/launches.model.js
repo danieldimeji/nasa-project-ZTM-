@@ -57,6 +57,7 @@ async function populateLaunches() {
     await saveLaunch(launch)
   }
 }
+
 async function loadLaunchData() {
   const firstLaunch = await findLaunch({
     flightNumber: 1,
